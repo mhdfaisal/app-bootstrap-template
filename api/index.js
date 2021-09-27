@@ -32,5 +32,6 @@ app.get('/', (req, res, next) => {
 	res.json({ api: 'Hello world' });
 });
 
-app.listen(4001);
-console.log('Running a GraphQL API server at http://localhost:4001/graphql');
+app.listen(3001, () => {
+	console.log('Running a GraphQL API server at http://localhost:4001/graphql');
+});
