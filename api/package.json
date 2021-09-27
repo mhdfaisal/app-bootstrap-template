@@ -1,14 +1,21 @@
 {
-  "name": "api",
-  "version": "1.0.0",
-  "description": "A graphql express API backend server",
-  "main": "index.js",
-  "author": "Mohd Faisal",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-graphql": "^0.12.0",
-    "graphql": "^15.6.0"
-  }
+	"name": "api",
+	"version": "1.0.0",
+	"description": "A graphql express API backend server",
+	"main": "index.js",
+	"author": "Mohd Faisal",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"dev": "nodemon",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-graphql": "^0.12.0",
+		"graphql": "^15.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.13"
+	}
 }
