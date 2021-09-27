@@ -1,0 +1,5 @@
+# Build temp images for client and server only
+# Run tests on temp images and output coverage
+# after the tests are passed successfully build all the images again with proper ports, args and volumes
+# Log into Elastic Container Registry and push the above images.
+# Deploy to ElasticBean Stalk
