@@ -1,0 +1,9 @@
+{
+  "name": "App-Bootstrap-Template",
+  "version": "1.0.0",
+  "description": "A dockerized bootstrap template for Next Js, Node Js and MongoDb Apps",
+  "main": "index.js",
+  "author": "Mohd Faisal",
+  "license": "MIT",
+  "private": false
+}
